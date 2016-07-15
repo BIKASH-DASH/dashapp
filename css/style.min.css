@@ -259,6 +259,13 @@ a:hover {
 a:focus {
 	outline: none
 }
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
 p {
 	font-size: 14px;
 	font-weight: 400;
@@ -301,7 +308,7 @@ img {
 	font-size: 12px;
 	line-height: 40px;
 	height: 39px;
-	background-color: #fcd200;
+	background-color: #002b00;
 	text-transform: uppercase;
 	padding: 0 30px;
 	font-weight: 700;
@@ -320,7 +327,7 @@ img {
 	outline: none
 }
 .btn-blue {
-	background: #14adf4
+	background: #002b00
 }
 .btn-black {
 	background: #434a54
@@ -391,7 +398,7 @@ body.mobile .has-parallax {
 	background-color: #27b1f1
 }
 .bg-main-2 {
-	background-color: #14adf4
+	background-color: #002b00
 }
 img {
 	-webkit-backface-visibility: hidden
@@ -504,7 +511,7 @@ img {
 	z-index: 0;
 	overflow: hidden;
 	background: #fff;
-	border-top: 3px solid #ffcd03;
+	border-top: 3px solid #333;
 	width: 341px;
 	left: auto;
 	right: 0;
@@ -539,7 +546,7 @@ img {
 	font-size: 14px;
 	font-weight: 700;
 	line-height: 18px;
-	color: #31aae2
+	color: #002b00
 }
 .header .cart .cart_list_wrapper .cart_list li .mini-cart-remove {
 	background: #d0d0d0;
@@ -565,7 +572,7 @@ img {
 	border-bottom: none
 }
 .header .cart .cart_list_wrapper .buttons {
-	background: #ffcd03;
+	background: #333;
 	margin: 0;
 	padding: 14px 30px;
 	font-size: 14px
@@ -600,12 +607,12 @@ body.overlay-opened.o-mini-cart .cart_list_wrapper {
 	overflow: visible
 }
 .index3-wrapper .header.header-fixed .header-right .cart>i:hover, .index3-wrapper .header.header-fixed .header-right .search>i:hover, .o-mini-cart .index3-wrapper .header.header-fixed .header-right .cart>i, .o-search-f .index3-wrapper .header.header-fixed .header-right .search>i {
-	background: #ffcd03;
+	background: #333;
 	color: #fff
 }
 @media(min-width:1025px) {
 	.header .cart .cart_list_wrapper .cart_list li>a:hover {
-		color: #ffcd03
+		color: #333
 	}
 	.header .cart .cart_list_wrapper .cart_list li .mini-cart-remove:hover {
 		background: #656d78;
@@ -706,7 +713,7 @@ body.overlay-opened.o-mini-cart .cart_list_wrapper {
 }
 .o-mini-cart .header.header-fixed .header-right .cart>i, .o-search-f .header.header-fixed .header-right .search>i {
 	background: #fff;
-	color: #14adf4
+	color: #002b00
 }
 .header.header-fixed .header-right .cart .cart_list_wrapper {
 	top: 52px
@@ -729,7 +736,7 @@ body.overlay-opened.o-mini-cart .cart_list_wrapper {
 @media(min-width:1025px) {
 	.header.header-fixed .header-right .cart>i:hover, .header.header-fixed .header-right .search>i:hover {
 		background: #fff;
-		color: #14adf4
+		color: #002b00
 	}
 	.style-green .header.header-fixed .header-right .cart>i:hover, .style-green .header.header-fixed .header-right .search>i:hover {
 		background: #002b00;
@@ -809,7 +816,7 @@ body.overlay-opened.o-mini-cart .cart_list_wrapper {
 	position: absolute;
 	font-family: FontAwesome;
 	content: "\f178";
-	color: #ffcd03;
+	color: #333;
 	left: -100px;
 	top: 0
 }
@@ -890,7 +897,7 @@ body.overlay-opened.o-mini-cart .cart_list_wrapper {
 	text-transform: none
 }
 .frm-search .submit {
-	background: #ffcd03;
+	background: #333;
 	width: 43px;
 	color: #fff
 }
@@ -951,7 +958,7 @@ body.overlay-opened.o-search-f .menu .search {
 	left: 0;
 	width: 100%;
 	height: 2px;
-	background: #fcd200;
+	background: #002b00;
 	opacity: 0;
 	-webkit-transition: all .3s ease 0s;
 	-moz-transition: all .3s ease 0s;
@@ -963,14 +970,14 @@ body.overlay-opened.o-search-f .menu .search {
 	color: #222
 }
 .index3-wrapper .header.header-fixed .header-menu .menu>ul>li>a:before {
-	background: #09f
+	background: #002b00
 }
 .header.header-fixed .header-menu .menu>ul>li.current-menu-item>a:before {
 	opacity: 1
 }
 @media(min-width:1025px) {
 	.menu a:hover {
-		background: #fcd200;
+		background: #002b00;
 		text-decoration: none
 	}
 	.menu .nav-menu>li:hover .sub-menu-wrap {
@@ -984,14 +991,14 @@ body.overlay-opened.o-search-f .menu .search {
 	}
 	.menu .nav-menu li .sub-menu-wrap ul li a:hover {
 		background: #fff;
-		color: #ffcd03;
+		color: #333;
 		padding-left: 18px
 	}
 	.index3-wrapper .menu a:hover, .index2-wrapper .menu a:hover {
 		background: none
 	}
 	.index3-wrapper .menu a:hover {
-		color: #09f
+		color: #002b00
 	}
 	.header.header-fixed .header-menu .menu>ul>li:hover>a:before {
 		opacity: 1
@@ -1166,7 +1173,7 @@ a.menu-mm .icon-bar {
 	left: 0;
 	top: 0;
 	font-size: 20px;
-	color: #fcd20b;
+	color: white;
 	text-align: center
 }
 .footer .widget .textwidget .contact-info .phone:before {
@@ -1219,7 +1226,7 @@ a.menu-mm .icon-bar {
 .footer .widget.widget_recent_entries ul li .text .post-date {
 	display: block;
 	margin-top: 10px;
-	color: #fcd20b;
+	color: white;
 	font-size: 12px;
 	font-weight: 400
 }
@@ -1270,7 +1277,7 @@ a.menu-mm .icon-bar {
 	color: #808a97
 }
 .site-copyright a {
-	color: #fcd20b
+	color: #002b00
 }
 .site-copyright .footer-menu li a {
 	display: block;
@@ -1371,7 +1378,7 @@ a.menu-mm .icon-bar {
 	transition: all .5s ease 0s
 }
 .what-we-do .item .bg-color {
-	background-color: #14adf4
+	background-color: #002b00
 }
 .what-we-do .item .bg-img {
 	z-index: 1;
@@ -1480,12 +1487,12 @@ a.menu-mm .icon-bar {
 		color: #fff
 	}
 	.what-we-do-2 .item .title a:hover {
-		color: #ffcd03
+		color: #333
 	}
 	.what-we-do-2 .item .readmore:hover {
-		background: #ffcd03;
+		background: #333;
 		color: #fff;
-		border-color: #ffcd03
+		border-color: #333
 	}
 	.what-we-do-2 .item .thumb:hover img {
 		opacity: .2
@@ -1593,7 +1600,7 @@ a.menu-mm .icon-bar {
 	height: 100px
 }
 .our-experts .people .person .info .bg {
-	background: #14adf4;
+	background: #002b00;
 	opacity: .7;
 	filter: alpha(opacity=70);
 	position: absolute;
@@ -1768,13 +1775,13 @@ a.menu-mm .icon-bar {
 }
 @media(min-width:1025px) {
 	.fun-facts .item .counter-icon:hover:before {
-		border-color: #fcd200;
+		border-color: #002b00;
 		-webkit-transition: all .2s ease 0s;
 		-moz-transition: all .2s ease 0s;
 		-ms-transition: all .2s ease 0s;
 		-o-transition: all .2s ease 0s;
 		transition: all .2s ease 0s;
-		-moz-box-shadow: 0 0 0 2px #fcd200
+		-moz-box-shadow: 0 0 0 2px #002b00
 	}
 	.fun-facts .item .counter-icon:hover:after {
 		-webkit-transition: all .2s ease 0s;
@@ -1785,7 +1792,7 @@ a.menu-mm .icon-bar {
 		box-shadow: 0 0 0 2px transparent;
 		-webkit-box-shadow: 0 0 0 2px transparent;
 		-moz-box-shadow: 0 0 0 2px transparent;
-		background-color: #fcd200;
+		background-color: #002b00;
 		-webkit-transform: scale(.85);
 		-ms-transform: scale(.85);
 		transform: scale(.85)
@@ -1831,7 +1838,7 @@ a.menu-mm .icon-bar {
 	height: 52px
 }
 .out-blog-posts .posts .post .date .bg {
-	background: #09f;
+	background: #002b00;
 	opacity: .7;
 	filter: alpha(opacity=70);
 	position: absolute;
@@ -1942,7 +1949,7 @@ a.menu-mm .icon-bar {
 	padding-top: 100px
 }
 .clients.style-yellow {
-	background: #fcd200
+	background: #002b00
 }
 .clients a img {
 	opacity: .5;
@@ -2029,7 +2036,7 @@ a.menu-mm .icon-bar {
 		filter: alpha(opacity=100)
 	}
 	.promotion .btn-button:hover {
-		background: #14adf4;
+		background: #002b00;
 		color: #fff
 	}
 }
@@ -2163,7 +2170,7 @@ a.menu-mm .icon-bar {
 	}
 }
 .testimonials .slick-slider-for .item .author {
-	color: #fcd20b;
+	color: #002b00;
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 14px;
@@ -2198,7 +2205,7 @@ a.menu-mm .icon-bar {
 	left: -8px;
 	width: 86px;
 	height: 86px;
-	border: 2px solid #fcd20b;
+	border: 2px solid #002b00;
 	border-radius: 50%;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%
@@ -2216,7 +2223,7 @@ a.menu-mm .icon-bar {
 	color: #313131
 }
 .testimonials-small .slick-slider-nav .item.slick-current .overlay:before {
-	color: #fcd20b
+	color: #002b00
 }
 .service-registration-process {
 	padding: 100px 0
@@ -2330,7 +2337,7 @@ a.menu-mm .icon-bar {
 	left: 0;
 	width: 100%;
 	height: 7px;
-	background: #ffcd03;
+	background: #333;
 	opacity: 0;
 	-webkit-transition: all .3s ease 0s;
 	-moz-transition: all .3s ease 0s;
@@ -2388,13 +2395,13 @@ a.menu-mm .icon-bar {
 	width: 40px;
 	text-align: left;
 	font-size: 16px;
-	color: #fcd20b;
+	color: #002b00;
 	font-weight: 700
 }
 .pricing-table .col-first .thead {
 	border: 1px solid #e9eaeb;
 	background: none;
-	color: #14adf4;
+	color: #002b00;
 	text-transform: uppercase;
 	font-size: 18px;
 	font-weight: 700
@@ -2423,7 +2430,7 @@ a.menu-mm .icon-bar {
 	line-height: 48px
 }
 .pricing-table .td .fa-icon-check {
-	color: #14adf4;
+	color: #002b00;
 	font-size: 24px;
 	line-height: 48px
 }
@@ -2431,7 +2438,7 @@ a.menu-mm .icon-bar {
 	display: inline-block;
 	width: 125px;
 	color: #fff;
-	background: #fcd20b;
+	background: #002b00;
 	line-height: 40px;
 	font-size: 12px;
 	font-weight: 700;
@@ -2451,10 +2458,10 @@ a.menu-mm .icon-bar {
 	height: 110px
 }
 .pricing-table .col-featured .td .btn-order {
-	background: #14adf4
+	background: #002b00
 }
 .pricing-table .thead.bg-main-2 {
-	background-color: #14adf4
+	background-color: #002b00
 }
 .pricing-table .thead.bg-blue-1 {
 	background-color: #1faaeb
@@ -2467,7 +2474,7 @@ a.menu-mm .icon-bar {
 }
 @media(min-width:1025px) {
 	.pricing-table .td .btn-order:hover {
-		background: #14adf4
+		background: #002b00
 	}
 	.pricing-table .col:hover:before {
 		opacity: 1
@@ -2582,7 +2589,7 @@ a.menu-mm .icon-bar {
 	font-size: 18px
 }
 .pricing-plan-table-2 .col-wrap:nth-child(odd) .td-title, .pricing-plan-table-2 .col-wrap:nth-child(even) .td-price {
-	background: #14adf4
+	background: #002b00
 }
 .pricing-plan-table-2 .col-wrap:nth-child(even) .td-title, .pricing-plan-table-2 .col-wrap:nth-child(odd) .td-price {
 	background: #40bcf6
@@ -2608,7 +2615,7 @@ a.menu-mm .icon-bar {
 	color: #dedede
 }
 .pricing-plan-table-2 .simple-title.no-title span {
-	color: #14adf4;
+	color: #002b00;
 	padding-left: 10px
 }
 .pricing-plan-table-2 .td-option p {
@@ -2636,7 +2643,7 @@ a.menu-mm .icon-bar {
 .pricing-plan-table-2 .td-order .btn-order {
 	width: 125px;
 	height: 40px;
-	background: #14adf4;
+	background: #002b00;
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -2674,7 +2681,7 @@ a.menu-mm .icon-bar {
 	display: none
 }
 .pricing-plan-table-2 .col-wrap.featured:nth-child(odd) .td-title, .pricing-plan-table-2 .col-wrap.featured:nth-child(even) .td-price {
-	background: #ffcd03
+	background: #333
 }
 .pricing-plan-table-2 .col-wrap.featured:nth-child(even) .td-title, .pricing-plan-table-2 .col-wrap.featured:nth-child(odd) .td-price {
 	background: #ffd632
@@ -2718,7 +2725,7 @@ a.menu-mm .icon-bar {
 		display: none
 	}
 	.pricing-plan-table-2 .col-wrap:hover:nth-child(odd) .td-title, .pricing-plan-table-2 .col-wrap:hover:nth-child(even) .td-price {
-		background: #ffcd03
+		background: #333
 	}
 	.pricing-plan-table-2 .col-wrap:hover:nth-child(even) .td-title, .pricing-plan-table-2 .col-wrap:hover:nth-child(odd) .td-price {
 		background: #ffd632
@@ -2829,7 +2836,7 @@ a.menu-mm .icon-bar {
 	width: 70px;
 	text-align: center;
 	color: #fff;
-	background: rgba(20, 173, 242, .7);
+	background: #5e5e5e;
 	padding: 12px 0 11px
 }
 .blog-list-item .date .m {
@@ -2849,7 +2856,7 @@ a.menu-mm .icon-bar {
 	width: 70px;
 	height: 65px;
 	text-align: center;
-	background: rgba(252, 210, 11, .7)
+	background: #002b00
 }
 .blog-list-item .post-type i {
 	color: #fff;
@@ -2881,7 +2888,7 @@ a.menu-mm .icon-bar {
 	color: #555
 }
 .blog-list-item .post-meta .cat {
-	color: #31aae2
+	color: #002b00
 }
 .blog-list-item .post-meta .split {
 	padding: 0 15px
@@ -2946,7 +2953,7 @@ a.menu-mm .icon-bar {
 	cursor: pointer
 }
 .blog-list-item .flex-control-nav .flex-active {
-	background: #31aae2
+	background: #002b00
 }
 .blog-list-item .flex-direction-nav a {
 	position: absolute;
@@ -2954,7 +2961,7 @@ a.menu-mm .icon-bar {
 	width: 30px;
 	height: 45px;
 	bottom: 6px;
-	background: #31aae2;
+	background: #002b00;
 	color: #fff;
 	text-align: center;
 	cursor: pointer;
@@ -3037,25 +3044,25 @@ a.menu-mm .icon-bar {
 		opacity: .7
 	}
 	.blog-list-item .title a:hover {
-		color: #fcd20b
+		color: #002b00
 	}
 	.blog-list-item .readmore:hover {
-		color: #fcd20b
+		color: #002b00
 	}
 	.blog-list-item .post-meta .author:hover {
-		color: #fcd20b
+		color: #002b00
 	}
 	.blog-list-item .post-meta .cat:hover {
-		color: #fcd20b
+		color: #002b00
 	}
 	.blog-list-item .flex-direction-nav a:hover {
-		background: #fcd20b
+		background: #002b00
 	}
 	.blog-list-item.post-sound .title:hover {
-		color: #fcd20b
+		color: #002b00
 	}
 	.blog-list-item.post-sound .author:hover {
-		color: #fcd20b
+		color: #002b00
 	}
 	.blog-list-item.post-video .thumb:hover img {
 		opacity: .25
@@ -3164,7 +3171,7 @@ a.menu-mm .icon-bar {
 	line-height: 24px
 }
 .sidebar .widget-list .current-cat a {
-	color: #14adf4
+	color: #002b00
 }
 .sidebar .widget-recent-post ul {
 	list-style: none;
@@ -3241,7 +3248,7 @@ a.menu-mm .icon-bar {
 }
 .widget-shop-list li.current-cat a {
 	background: #fcfbfb;
-	color: #31aae2
+	color: #002b00
 }
 .filter--slider {
 	width: 100%;
@@ -3295,7 +3302,7 @@ a.menu-mm .icon-bar {
 	z-index: 20
 }
 .filter--slider .noUi-base .noUi-connect:before {
-	background: #14adf4
+	background: #002b00
 }
 .filter--slider .noUi-base .noUi-background {
 	z-index: 30
@@ -3309,7 +3316,7 @@ a.menu-mm .icon-bar {
 	-webkit-border-radius: 100%;
 	-moz-border-radius: 100%;
 	border-radius: 100%;
-	background: #14adf4;
+	background: #002b00;
 	margin-left: -16px;
 	position: relative;
 	z-index: 40
@@ -3336,7 +3343,7 @@ a.menu-mm .icon-bar {
 	height: 30px;
 	padding: 0;
 	border: none;
-	background: #fcd20b;
+	background: #002b00;
 	color: #fff;
 	font-size: 12px;
 	line-height: 30px;
@@ -3416,7 +3423,7 @@ a.menu-mm .icon-bar {
 	content: "\f005 \f005 \f005 \f005 \f005";
 	font-family: FontAwesome;
 	display: block;
-	color: #fcd20b;
+	color: #002b00;
 	font-size: 11px;
 	overflow: hidden
 }
@@ -3443,23 +3450,23 @@ a.menu-mm .icon-bar {
 }
 @media(min-width:1025px) {
 	.sidebar .widget-list a:hover {
-		color: #14adf4
+		color: #002b00
 	}
 	.sidebar .widget-recent-post .thumb:hover img {
 		opacity: .7
 	}
 	.sidebar .widget-recent-post .title a:hover {
-		color: #14adf4;
+		color: #002b00;
 		text-decoration: underline
 	}
 	.tagcloud a:hover {
 		color: #fff;
-		background: #31aae2;
-		border-color: #31aae2
+		background: #002b00;
+		border-color: #002b00
 	}
 	.widget-shop-list li a:hover {
 		background: #fcfbfb;
-		color: #31aae2
+		color: #002b00
 	}
 	.widget-price-filter .filter-submit:hover {
 		opacity: .7
@@ -3468,7 +3475,7 @@ a.menu-mm .icon-bar {
 		opacity: .7
 	}
 	.widget-best-seller .item-product-top-rated h2:hover {
-		color: #14adf4
+		color: #002b00
 	}
 }
 @media(max-width:991px) {
@@ -3525,7 +3532,7 @@ a.menu-mm .icon-bar {
 	position: absolute;
 	top: 0;
 	left: 0;
-	color: #31aae2
+	color: #002b00
 }
 .text-content ol li {
 	margin-bottom: 6px
@@ -3665,10 +3672,10 @@ a.menu-mm .icon-bar {
 	font-size: 16px;
 	font-weight: 600;
 	line-height: 22px;
-	color: #31aae2
+	color: #002b00
 }
 .comment-list .comment-meta .comment-author a {
-	color: #31aae2
+	color: #002b00
 }
 .comment-list .comment-meta .comment-author .avatar {
 	position: absolute;
@@ -3700,7 +3707,7 @@ a.menu-mm .icon-bar {
 	line-height: 26px;
 	color: #fff;
 	text-transform: uppercase;
-	background: #fcd20b
+	background: #002b00
 }
 .comment-list .comment-body .text-content {
 	padding: 20px 30px 1px;
@@ -3726,13 +3733,13 @@ a.menu-mm .icon-bar {
 	margin-bottom: 35px
 }
 .comment-form .inp-text:focus {
-	border-color: #14adf4
+	border-color: #002b00
 }
 .comment-form .inp-submit {
 	width: 120px;
 	height: 40px;
 	font-size: 12px;
-	background: #14adf4;
+	background: #002b00;
 	color: #fff;
 	border: none;
 	font-weight: 700;
@@ -3744,16 +3751,16 @@ a.menu-mm .icon-bar {
 }
 @media(min-width:1025px) {
 	.comment-list .comment-meta .comment-author a:hover {
-		color: #fcd20b
+		color: #002b00
 	}
 	.comment-list .comment-meta .comment-metadata a:hover {
-		color: #fcd20b
+		color: #002b00
 	}
 	.comment-list .comment-body .comment-reply-link:hover {
-		background: #31aae2
+		background: #002b00
 	}
 	.comment-form .inp-submit:hover {
-		background: #fcd20b
+		background: #002b00
 	}
 }
 @media(max-width:991px) {
@@ -3822,7 +3829,7 @@ a.menu-mm .icon-bar {
 	margin-right: 10px
 }
 .add-to-cart-message a {
-	color: #31aae2
+	color: #002b00
 }
 .add-to-cart-message .text {
 	padding: 12px 0 13px;
@@ -3902,7 +3909,7 @@ a.menu-mm .icon-bar {
 	transition: all .3s ease 0s
 }
 .shop_table.cart tbody .qty:focus {
-	border-color: #14adf4
+	border-color: #002b00
 }
 .shop_table.cart tbody .product-subtotal {
 	padding-left: 55px;
@@ -3951,7 +3958,7 @@ a.menu-mm .icon-bar {
 .shop_table.cart tfoot .product-subtotal {
 	font-size: 18px;
 	padding-left: 54px;
-	color: #31aae2
+	color: #002b00
 }
 .woocommerce-info {
 	background: #fbfbfb;
@@ -3977,7 +3984,7 @@ a.menu-mm .icon-bar {
 	width: 16px
 }
 .woocommerce-info a {
-	color: #14adf4
+	color: #002b00
 }
 .frm-in-checkout.login {
 	display: none;
@@ -4000,7 +4007,7 @@ a.menu-mm .icon-bar {
 	float: right
 }
 .frm-in-checkout .form-row .lost_password a {
-	color: #14adf4
+	color: #002b00
 }
 .frm-in-checkout .form-row-input {
 	position: relative
@@ -4037,7 +4044,7 @@ a.menu-mm .icon-bar {
 	font-size: 14px
 }
 .frm-in-checkout .form-row-input .input-text:focus {
-	border-color: #14adf4
+	border-color: #002b00
 }
 .frm-in-checkout .input-check {
 	font-weight: 400
@@ -4168,7 +4175,7 @@ a.menu-mm .icon-bar {
 	font-size: 18px
 }
 .woocommerce-checkout-review-order-table .order-total td {
-	color: #14adf4
+	color: #002b00
 }
 .woocommerce-checkout-payment ul {
 	list-style: none;
@@ -4243,7 +4250,7 @@ a.menu-mm .icon-bar {
 	background: #fff
 }
 .woocommerce-checkout-payment ul li input:checked+label:after {
-	background: #14adf4
+	background: #002b00
 }
 .woocommerce-checkout-payment ul li input:checked+label+.payment_box {
 	display: block
@@ -4256,10 +4263,10 @@ a.menu-mm .icon-bar {
 }
 @media(min-width:1025px) {
 	.shop_table.cart tbody .product-remove a:hover, .shop_table.cart tbody .product-name a:hover {
-		color: #14adf4
+		color: #002b00
 	}
 	.woocommerce-info a:hover, .frm-in-checkout .form-row .lost_password a:hover {
-		color: #fade4a
+		color: #002b00
 	}
 }
 @media(max-width:991px) {
@@ -4361,7 +4368,7 @@ a.menu-mm .icon-bar {
 		padding: 15px 8px;
 		background: #fbfafa;
 		border-top: 1px solid #e9e9e9;
-		color: #14adf4
+		color: #002b00
 	}
 	.shop_table.cart tbody .qty {
 		height: 35px
@@ -4496,7 +4503,7 @@ a.menu-mm .icon-bar {
 	font-size: 14px;
 	text-transform: uppercase;
 	font-weight: 700;
-	color: #31aae2;
+	color: #002b00;
 	line-height: 21px;
 	margin: 0 0 8px
 }
@@ -4526,7 +4533,7 @@ a.menu-mm .icon-bar {
 	outline: none
 }
 .frm-common .inp-text:focus {
-	border-color: #31aae2
+	border-color: #002b00
 }
 .map-full {
 	height: 440px
@@ -4555,7 +4562,7 @@ a.menu-mm .icon-bar {
 }
 @media(min-width:1025px) {
 	.box-contact .contact-list li a:hover, .box-contact .contact-list ul li a:hover {
-		color: #31aae2
+		color: #002b00
 	}
 }
 @media(max-width:991px) {
@@ -4602,7 +4609,7 @@ a.menu-mm .icon-bar {
 	margin: 0 3px 10px
 }
 .portfolio-filter a.js__filter_active {
-	background: #fcd20b;
+	background: #002b00;
 	color: #fff;
 	text-decoration: none
 }
@@ -4616,7 +4623,7 @@ a.menu-mm .icon-bar {
 .item-portfolio .thumb {
 	display: block;
 	position: relative;
-	background: #31aae2
+	background: #002b00
 }
 .item-portfolio .thumb img {
 	width: 100%;
@@ -4634,7 +4641,7 @@ a.menu-mm .icon-bar {
 	height: 40px;
 	top: 50%;
 	left: 50%;
-	background: #fcd20b;
+	background: #002b00;
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -4670,7 +4677,7 @@ a.menu-mm .icon-bar {
 	margin-bottom: 12px
 }
 .item-portfolio .content .post-meta a {
-	color: #31aae2
+	color: #002b00
 }
 .item-portfolio .content p {
 	margin-bottom: 0
@@ -4702,7 +4709,7 @@ a.menu-mm .icon-bar {
 	left: 0;
 	font-size: 16px;
 	line-height: 22px;
-	color: #31aae2
+	color: #002b00
 }
 .portfolio-details ul li .text-title {
 	font-size: 14px;
@@ -4718,7 +4725,7 @@ a.menu-mm .icon-bar {
 	margin-top: 0
 }
 .portfolio-details ul li a {
-	color: #31aae2
+	color: #002b00
 }
 .portfolio-content {
 	padding-top: 25px;
@@ -4831,11 +4838,11 @@ a.menu-mm .icon-bar {
 }
 @media(min-width:1025px) {
 	.portfolio-filter a:hover {
-		background: #fcd20b;
+		background: #002b00;
 		color: #fff
 	}
 	.portfolio-details ul li a:hover {
-		color: #fcd20b
+		color: #002b00
 	}
 	.item-portfolio .thumb:hover img {
 		opacity: .24
@@ -4847,17 +4854,17 @@ a.menu-mm .icon-bar {
 		background: #222
 	}
 	.item-portfolio .content .post-meta a:hover {
-		color: #fcd20b
+		color: #002b00
 	}
 	.images-wrapper .images-right .control a:hover {
 		color: #fff;
-		background: #fcd20b
+		background: #002b00
 	}
 	.images-wrapper .images-slider ul li:hover {
 		opacity: 1
 	}
 	.item-service .readmore:hover {
-		color: #14adf4
+		color: #002b00
 	}
 	.item-portfolio .content:hover {
 		background: #fff;
@@ -5047,7 +5054,7 @@ a.menu-mm .icon-bar {
 	color: #999
 }
 .shop-filter .shop-type a.active {
-	background: #fcd20b;
+	background: #002b00;
 	color: #fff
 }
 .shop-filter-small .shop-sort {
@@ -5132,7 +5139,7 @@ a.menu-mm .icon-bar {
 	content: "\f005 \f005 \f005 \f005 \f005";
 	font-family: FontAwesome;
 	display: block;
-	color: #fcd20b;
+	color: #002b00;
 	font-size: 16px;
 	overflow: hidden
 }
@@ -5152,7 +5159,7 @@ a.menu-mm .icon-bar {
 	font-size: 12px;
 	font-weight: 700;
 	color: #fff;
-	background: #fcd200;
+	background: #002b00;
 	text-align: center
 }
 .upsells .wave-title {
@@ -5196,20 +5203,20 @@ a.menu-mm .icon-bar {
 }
 .woocommerce-pagination .current {
 	background: #fff;
-	border-color: #14adf4;
-	color: #14adf4
+	border-color: #002b00;
+	color: #002b00
 }
 @media(min-width:1025px) {
 	.item-product-list .thumb:hover img {
 		opacity: .7
 	}
 	.item-product-list .add_to_cart_button:hover {
-		background: #14adf4
+		background: #002b00
 	}
 	.woocommerce-pagination a:hover {
 		background: #fff;
-		border-color: #14adf4;
-		color: #14adf4
+		border-color: #002b00;
+		color: #002b00
 	}
 }
 @media(max-width:1199px) {
@@ -5414,7 +5421,7 @@ a.menu-mm .icon-bar {
 	content: "\f005 \f005 \f005 \f005 \f005";
 	font-family: FontAwesome;
 	display: block;
-	color: #fcd20b;
+	color: #002b00;
 	font-size: 16px;
 	overflow: hidden
 }
@@ -5505,7 +5512,7 @@ a.menu-mm .icon-bar {
 	text-transform: none;
 	font-weight: 400;
 	font-size: 14px;
-	color: #31aae2
+	color: #002b00
 }
 .product .summary .product_meta a:first-child {
 	padding-left: 10px
@@ -5518,7 +5525,7 @@ a.menu-mm .icon-bar {
 	text-transform: uppercase;
 	font-weight: 700;
 	color: #fff;
-	background: #fcd20b;
+	background: #002b00;
 	border: none
 }
 .woocommerce-tabs .tabs {
@@ -5576,7 +5583,7 @@ a.menu-mm .icon-bar {
 	transition: all .3s ease 0s
 }
 .woocommerce-tabs .tabs a.js__tab_active:before {
-	background: #31aae2
+	background: #002b00
 }
 .woocommerce-tabs .panel {
 	margin: 0;
@@ -5593,14 +5600,14 @@ a.menu-mm .icon-bar {
 @media(min-width:1025px) {
 	.product .images .control a:hover {
 		color: #fff;
-		background: #fcd20b
+		background: #002b00
 	}
 	.product .summary .quantity .number-wrap .btn-number:hover {
-		background: #fcd20b;
+		background: #002b00;
 		color: #fff
 	}
 	.product .summary .product_meta a:hover {
-		color: #fcd20b
+		color: #002b00
 	}
 	.product .summary .single_add_to_cart_button:hover {
 		opacity: .7
@@ -5710,11 +5717,11 @@ a.menu-mm .icon-bar {
 }
 .page-large-title .woocommerce-breadcrumb span {
 	margin-left: 0;
-	color: #fcd20b
+	color: #002b00
 }
 @media(min-width:1025px) {
 	.page-large-title .woocommerce-breadcrumb a:hover {
-		color: #fcd20b
+		color: #002b00
 	}
 }
 .slider {
@@ -5846,7 +5853,7 @@ a.menu-mm .icon-bar {
 	font-weight: 700;
 	color: #fff;
 	font-family: Raleway;
-	background-color: #ffcd03;
+	background-color: #333;
 	padding: 12px 35px;
 	border-color: #000;
 	outline: none;
@@ -5880,7 +5887,7 @@ a.menu-mm .icon-bar {
 	font-weight: 700;
 	color: #fff;
 	font-family: Raleway;
-	background-color: #ffcd03;
+	background-color: #333;
 	padding: 12px 35px;
 	border-color: #000;
 	outline: none;
@@ -5983,7 +5990,7 @@ a.menu-mm .icon-bar {
 	left: 0;
 	width: 45px;
 	height: 45px;
-	background: #31aae2;
+	background: #002b00;
 	cursor: pointer;
 	text-align: center;
 	line-height: 45px;
@@ -6036,7 +6043,7 @@ a.menu-mm .icon-bar {
 	content: '\f028'
 }
 #toTop {
-	background: #fade4a;
+	background: #002b00;
 	border-radius: 50%;
 	bottom: 30px;
 	color: #fff;
@@ -6429,7 +6436,7 @@ body.desktop .our-experts .person .info .social li:nth-child(4) {
 	text-decoration: none
 }
 #style-selector .ss-button.js__active {
-	background: #14adf4
+	background: #002b00
 }
 #style-selector .switcher-select-form {
 	width: 100%;
@@ -6440,7 +6447,7 @@ body.desktop .our-experts .person .info .social li:nth-child(4) {
 }
 @media(min-width:1025px) {
 	#style-selector .ss-button:hover {
-		background: #14adf4
+		background: #002b00
 	}
 	body.desktop .our-experts .person:hover .info {
 		height: 100px;
@@ -6966,7 +6973,7 @@ body.rtl .shop-filter-small .shop-sort {
 	background: #222
 }
 .style-green .menu .nav-menu li .sub-menu-wrap ul li a:before, .style-green .footer .widget.widget_recent_entries ul li .text .post-date, .style-green .site-copyright a, .style-green .footer .widget .textwidget .contact-info .phone:before, .style-green .footer .widget .textwidget .contact-info .location:before, .style-green .blog-list-item .post-meta .cat, .style-green .sidebar .widget-list .current-cat a, .style-green .comment-list .comment-meta .comment-author a, .style-green .comment-list .comment-meta .comment-author, .style-green .shop_table.cart tfoot .product-subtotal, .style-green .woocommerce-info a, .style-green .frm-in-checkout .form-row .lost_password a, .style-green .woocommerce-checkout-review-order-table .order-total td, .style-green .box-contact .contact-list h2, .style-green .item-portfolio .content .post-meta a, .style-green .portfolio-details ul li .icon-title, .style-green .portfolio-details ul li a, .style-green .item-product-list .content .star-rating span:before, .style-green .widget-shop-list li.current-cat a, .style-green .product .summary .product_meta a, .style-green .header .cart .cart_list_wrapper .cart_list li .amount, .style-green .pricing-table .td .fa-icon-check, .style-green .header .support:before, .style-green .header .cart i.fa-icon-shopping-cart, .style-green .pricing-plan-table-2 .simple-title.no-title span, .style-green .text-content ul li:before {
-	color: #303741
+	color: white;
 }
 .style-green #toTop, .style-green .btn-blue, .style-green .our-experts .people .person .info .bg, .style-green .pricing-table .thead, .style-green .pricing-table .td .btn-order, .style-green .header .cart .cart_list_wrapper .buttons, .style-green .frm-search .submit, .style-green .blog-list-item .flex-control-nav .flex-active, .style-green .blog-list-item .flex-direction-nav a, .style-green .blog-list-item.post-sound .date, .style-green .audio .play-pause-button, .style-green .comment-list .comment-body .comment-reply-link, .style-green .comment-form .inp-submit, .style-green .woocommerce-checkout-payment ul li input:checked+label:after, .style-green .portfolio-filter a.js__filter_active, .style-green .item-portfolio .thumb, .style-green .shop-filter .shop-type a.active, .style-green .item-product-list .add_to_cart_button, .style-green .bg-main, .style-green .filter--slider .noUi-base .noUi-handle, .style-green .filter--slider .noUi-base .noUi-connect:before, .style-green .product .summary .single_add_to_cart_button, .style-green .bg-main-2, .style-green .select2-container--default .select2-results__option--highlighted[aria-selected], .style-green .out-blog-posts .posts .post .date .bg, .style-green .pricing-plan-table-2 .col-wrap:nth-child(even) .td-title, .style-green .pricing-plan-table-2 .col-wrap:nth-child(odd) .td-price, .style-green .pricing-plan-table-2 .td-order .btn-order, .style-green .what-we-do .item .bg-color {
 	background: #002b00
@@ -7002,7 +7009,7 @@ body.rtl .shop-filter-small .shop-sort {
 	color: #fff
 }
 .style-green .pricing-plan-table-2 .col-wrap.featured:nth-child(odd) .td-title, .style-green .pricing-plan-table-2 .col-wrap.featured:nth-child(even) .td-price {
-	background: #ffcd03
+	background: #333
 }
 .style-green .pricing-plan-table-2 .col-wrap.featured:nth-child(even) .td-title, .style-green .pricing-plan-table-2 .col-wrap.featured:nth-child(odd) .td-price, .style-green .pricing-plan-table-2 .col-wrap.featured .btn-order {
 	background: #ffd632
@@ -7054,7 +7061,7 @@ body.rtl .shop-filter-small .shop-sort {
 		color: #019840
 	}
 	.style-green .pricing-plan-table-2 .col-wrap:hover:nth-child(odd) .td-title, .style-green .pricing-plan-table-2 .col-wrap:hover:nth-child(even) .td-price {
-		background: #ffcd03
+		background: #333
 	}
 	.style-green .pricing-plan-table-2 .col-wrap:hover:nth-child(even) .td-title, .style-green .pricing-plan-table-2 .col-wrap:hover:nth-child(odd) .td-price {
 		background: #ffd632
@@ -7108,7 +7115,7 @@ body.rtl .shop-filter-small .shop-sort {
 	color: #fff
 }
 .style-red .pricing-plan-table-2 .col-wrap.featured:nth-child(odd) .td-title, .style-red .pricing-plan-table-2 .col-wrap.featured:nth-child(even) .td-price {
-	background: #ffcd03
+	background: #333
 }
 .style-red .pricing-plan-table-2 .col-wrap.featured:nth-child(even) .td-title, .style-red .pricing-plan-table-2 .col-wrap.featured:nth-child(odd) .td-price, .style-red .pricing-plan-table-2 .col-wrap.featured .btn-order {
 	background: #ffd632
@@ -7178,7 +7185,7 @@ body.rtl .shop-filter-small .shop-sort {
 		background: #f44336
 	}
 	.style-red .pricing-plan-table-2 .col-wrap:hover:nth-child(odd) .td-title, .style-red .pricing-plan-table-2 .col-wrap:hover:nth-child(even) .td-price {
-		background: #ffcd03
+		background: #333
 	}
 	.style-red .pricing-plan-table-2 .col-wrap:hover:nth-child(even) .td-title, .style-red .pricing-plan-table-2 .col-wrap:hover:nth-child(odd) .td-price {
 		background: #ffd632
@@ -7232,7 +7239,7 @@ body.rtl .shop-filter-small .shop-sort {
 	color: #fff
 }
 .style-grey .pricing-plan-table-2 .col-wrap.featured:nth-child(odd) .td-title, .style-grey .pricing-plan-table-2 .col-wrap.featured:nth-child(even) .td-price {
-	background: #ffcd03
+	background: #333
 }
 .style-grey .pricing-plan-table-2 .col-wrap.featured:nth-child(even) .td-title, .style-grey .pricing-plan-table-2 .col-wrap.featured:nth-child(odd) .td-price, .style-grey .pricing-plan-table-2 .col-wrap.featured .btn-order {
 	background: #ffd632
@@ -7302,7 +7309,7 @@ body.rtl .shop-filter-small .shop-sort {
 		background: #9e9e9e
 	}
 	.style-grey .pricing-plan-table-2 .col-wrap:hover:nth-child(odd) .td-title, .style-grey .pricing-plan-table-2 .col-wrap:hover:nth-child(even) .td-price {
-		background: #ffcd03
+		background: #333
 	}
 	.style-grey .pricing-plan-table-2 .col-wrap:hover:nth-child(even) .td-title, .style-grey .pricing-plan-table-2 .col-wrap:hover:nth-child(odd) .td-price {
 		background: #ffd632
@@ -7356,7 +7363,7 @@ body.rtl .shop-filter-small .shop-sort {
 	color: #fff
 }
 .style-pink .pricing-plan-table-2 .col-wrap.featured:nth-child(odd) .td-title, .style-pink .pricing-plan-table-2 .col-wrap.featured:nth-child(even) .td-price {
-	background: #ffcd03
+	background: #333
 }
 .style-pink .pricing-plan-table-2 .col-wrap.featured:nth-child(even) .td-title, .style-pink .pricing-plan-table-2 .col-wrap.featured:nth-child(odd) .td-price, .style-pink .pricing-plan-table-2 .col-wrap.featured .btn-order {
 	background: #ffd632
@@ -7426,7 +7433,7 @@ body.rtl .shop-filter-small .shop-sort {
 		background: #e81d62
 	}
 	.style-pink .pricing-plan-table-2 .col-wrap:hover:nth-child(odd) .td-title, .style-pink .pricing-plan-table-2 .col-wrap:hover:nth-child(even) .td-price {
-		background: #ffcd03
+		background: #333
 	}
 	.style-pink .pricing-plan-table-2 .col-wrap:hover:nth-child(even) .td-title, .style-pink .pricing-plan-table-2 .col-wrap:hover:nth-child(odd) .td-price {
 		background: #ffd632
@@ -7477,7 +7484,7 @@ body.rtl .shop-filter-small .shop-sort {
 	color: #fff
 }
 .style-orange .pricing-plan-table-2 .col-wrap.featured:nth-child(odd) .td-title, .style-orange .pricing-plan-table-2 .col-wrap.featured:nth-child(even) .td-price {
-	background: #ffcd03
+	background: #333
 }
 .style-orange .pricing-plan-table-2 .col-wrap.featured:nth-child(even) .td-title, .style-orange .pricing-plan-table-2 .col-wrap.featured:nth-child(odd) .td-price, .style-orange .pricing-plan-table-2 .col-wrap.featured .btn-order {
 	background: #ffd632
@@ -7550,7 +7557,7 @@ body.rtl .shop-filter-small .shop-sort {
 		background: #fe5621
 	}
 	.style-orange .pricing-plan-table-2 .col-wrap:hover:nth-child(odd) .td-title, .style-orange .pricing-plan-table-2 .col-wrap:hover:nth-child(even) .td-price {
-		background: #ffcd03
+		background: #333
 	}
 	.style-orange .pricing-plan-table-2 .col-wrap:hover:nth-child(even) .td-title, .style-orange .pricing-plan-table-2 .col-wrap:hover:nth-child(odd) .td-price {
 		background: #ffd632
@@ -7574,7 +7581,7 @@ body.rtl .shop-filter-small .shop-sort {
 	background: #3e50b4
 }
 .style-purple .pricing-table .col-featured .td .btn-order, .style-purple .pricing-plan-table-2 .col-wrap:nth-child(odd) .td-title, .style-purple .pricing-plan-table-2 .col-wrap:nth-child(even) .td-price {
-	background: #512da8
+	background: #002b00
 }
 .style-purple .pricing-table .col-first .thead {
 	color: #3e50b4;
@@ -7601,7 +7608,7 @@ body.rtl .shop-filter-small .shop-sort {
 	color: #fff
 }
 .style-purple .pricing-plan-table-2 .col-wrap.featured:nth-child(odd) .td-title, .style-purple .pricing-plan-table-2 .col-wrap.featured:nth-child(even) .td-price {
-	background: #ffcd03
+	background: #333
 }
 .style-purple .pricing-plan-table-2 .col-wrap.featured:nth-child(even) .td-title, .style-purple .pricing-plan-table-2 .col-wrap.featured:nth-child(odd) .td-price, .style-purple .pricing-plan-table-2 .col-wrap.featured .btn-order {
 	background: #ffd632
@@ -7619,7 +7626,7 @@ body.rtl .shop-filter-small .shop-sort {
 	background-color: #3548b1
 }
 .style-purple .pricing-table .thead.bg-blue-3 {
-	background-color: #512da8
+	background-color: #002b00
 }
 .style-purple .index2-wrapper .header.header-fixed .cart i.fa-icon-shopping-cart, .style-purple .index2-wrapper .header.header-fixed .search i.fa-icon-search {
 	color: #fff
@@ -7654,7 +7661,7 @@ body.rtl .shop-filter-small .shop-sort {
 		border-color: #3e50b4
 	}
 	.style-purple .pricing-table .td .btn-order:hover, .style-purple .blog-list-item .flex-direction-nav a:hover, .style-purple .comment-list .comment-body .comment-reply-link:hover, .style-purple .comment-form .inp-submit:hover, .style-purple .item-product-list .add_to_cart_button:hover {
-		background: #512da8
+		background: #002b00
 	}
 	.style-purple .what-we-do-2 .item .readmore:hover {
 		background: #3e50b4;
@@ -7665,7 +7672,7 @@ body.rtl .shop-filter-small .shop-sort {
 		border-color: #3e50b4
 	}
 	.style-purple .blog-list-item .post-meta .cat:hover, .style-purple .blog-list-item .post-meta .author:hover, .style-purple .blog-list-item.post-sound .title:hover, .style-purple .blog-list-item.post-sound .author:hover, .style-purple .comment-list .comment-meta .comment-author a:hover, .style-purple .woocommerce-info a:hover, .style-purple .frm-in-checkout .form-row .lost_password a:hover, .style-purple .item-portfolio .content .post-meta a:hover, .style-purple .portfolio-details ul li a:hover, .style-purple .product .summary .product_meta a:hover {
-		color: #512da8
+		color: #002b00
 	}
 	.style-purple .index3-wrapper .menu a:hover {
 		color: #3e50b4
@@ -7674,7 +7681,7 @@ body.rtl .shop-filter-small .shop-sort {
 		background: #3e50b4
 	}
 	.style-purple .pricing-plan-table-2 .col-wrap:hover:nth-child(odd) .td-title, .style-purple .pricing-plan-table-2 .col-wrap:hover:nth-child(even) .td-price {
-		background: #ffcd03
+		background: #333
 	}
 	.style-purple .pricing-plan-table-2 .col-wrap:hover:nth-child(even) .td-title, .style-purple .pricing-plan-table-2 .col-wrap:hover:nth-child(odd) .td-price {
 		background: #ffd632
@@ -7725,7 +7732,7 @@ body.rtl .shop-filter-small .shop-sort {
 	color: #fff
 }
 .style-brown .pricing-plan-table-2 .col-wrap.featured:nth-child(odd) .td-title, .style-brown .pricing-plan-table-2 .col-wrap.featured:nth-child(even) .td-price {
-	background: #ffcd03
+	background: #333
 }
 .style-brown .pricing-plan-table-2 .col-wrap.featured:nth-child(even) .td-title, .style-brown .pricing-plan-table-2 .col-wrap.featured:nth-child(odd) .td-price, .style-brown .pricing-plan-table-2 .col-wrap.featured .btn-order {
 	background: #ffd632
@@ -7798,7 +7805,7 @@ body.rtl .shop-filter-small .shop-sort {
 		background: #785447
 	}
 	.style-brown .pricing-plan-table-2 .col-wrap:hover:nth-child(odd) .td-title, .style-brown .pricing-plan-table-2 .col-wrap:hover:nth-child(even) .td-price {
-		background: #ffcd03
+		background: #333
 	}
 	.style-brown .pricing-plan-table-2 .col-wrap:hover:nth-child(even) .td-title, .style-brown .pricing-plan-table-2 .col-wrap:hover:nth-child(odd) .td-price {
 		background: #ffd632
